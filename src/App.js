@@ -31,6 +31,7 @@ class App extends Component{
                     removeCharacter={this.removeCharacter} 
                 />
                 <Form handleSubmit={this.handleSubmit}/>
+                <a href="api.html">Api</a>
             </div>
         );
     }
